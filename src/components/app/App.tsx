@@ -3,7 +3,7 @@ import Header from '../header/Header';
 import '../../assets/styles/app.scss';
 import SocialLinks from '../social-links/SocialLinks';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div>
       <Header />

@@ -1,0 +1,11 @@
+$green: #16A085;
+
+.icon {
+  border-radius: 100%;
+  transition: 0.3s;
+  width: 64px !important;
+  &:hover {
+    background: $green;
+    transition: 0.3s;
+  }
+}

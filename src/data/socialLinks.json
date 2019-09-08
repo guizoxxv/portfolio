@@ -1,0 +1,28 @@
+{
+  "links": [
+    {
+      "name": "E-mail",
+      "uri": "mailto:oliveira.gsd@gmail.com",
+      "icon": {
+        "prefix": "fas",
+        "iconName": "envelope"
+      }
+    },
+    {
+      "name": "LinkedIn",
+      "uri": "https://linkedin.com/in/g-oliveira",
+      "icon": {
+        "prefix": "fab",
+        "iconName": "linkedin-in"
+      }
+    },
+    {
+      "name": "GitHub",
+      "uri": "https://github.com/guizoxxv",
+      "icon": {
+        "prefix": "fab",
+        "iconName": "github"
+      }
+    }
+  ]
+}
