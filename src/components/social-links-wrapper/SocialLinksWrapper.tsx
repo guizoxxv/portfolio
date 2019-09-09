@@ -1,9 +1,9 @@
 import React from 'react';
 import socialLinksData from '../../data/socialLinks.json';
 import SocialLink from '../social-link/SocialLink';
-import SocialLinkDataInterface from '../social-link/socialLinkData.interface.js';
+import SocialLinkDataInterface from '../social-link/interfaces/socialLinkData.interface.js';
 
-const SocialLinks: React.FC = () => {
+const SocialLinksWrapper: React.FC = () => {
   const { links } = socialLinksData;
 
   return (
@@ -17,4 +17,4 @@ const SocialLinks: React.FC = () => {
   );
 }
 
-export default SocialLinks;
+export default SocialLinksWrapper;

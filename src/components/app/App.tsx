@@ -1,13 +1,15 @@
 import React from 'react';
 import Header from '../header/Header';
 import '../../assets/styles/app.scss';
-import SocialLinks from '../social-links/SocialLinks';
+import SocialLinksWrapper from '../social-links-wrapper/SocialLinksWrapper';
+import ProjectsWrapper from '../projects-wrapper/ProjectsWrapper';
 
 const App = () => {
   return (
     <div>
       <Header />
-      <SocialLinks />
+      <SocialLinksWrapper />
+      <ProjectsWrapper />
     </div>
   );
 }
