@@ -2,6 +2,7 @@
   "projects": [
     {
       "title": "Guest List",
+      "slug": "guest-list",
       "images": [
         {
           "path": "projects/guest-list/0.png",
@@ -14,6 +15,7 @@
     },
     {
       "title": "My Cultura",
+      "slug": "my-cultura",
       "images": [
         {
           "path": "projects/my-cultura/0.png",
@@ -26,6 +28,7 @@
     },
     {
       "title": "Thiniá Consultas",
+      "slug": "thinia-consultas",
       "images": [
         {
           "path": "projects/thinia-consultas/0.png",
