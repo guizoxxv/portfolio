@@ -3,39 +3,87 @@
     {
       "title": "Guest List",
       "slug": "guest-list",
+      "date": "2019-03-25",
+      "client": {
+        "name": "Pessoal"
+      },
       "images": [
         {
           "path": "projects/guest-list/0.png",
           "alt": "Guest List printscreen"
         }
       ],
-      "date": "2019-03-25",
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "materialDesign",
+        "javascript",
+        "angular",
+        "node",
+        "express",
+        "mongodb"
+      ],
       "descriptionBrief": "Aplicação para gerenciar lista de convidados de eventos.",
       "description": "Aplicação para gerenciar lista de convidados de eventos."
     },
     {
       "title": "My Cultura",
       "slug": "my-cultura",
+      "date": "2019-01-27",
+      "client": {
+        "name": "Cultura Inglesa",
+        "link": "https://www.culturainglesa.net/"
+      },
+      "intermediary": {
+        "name": "Piloti",
+        "link": "http://www.piloti.com.br/"
+      },
       "images": [
         {
           "path": "projects/my-cultura/0.png",
           "alt": "My Cultura printscreen"
         }
       ],
-      "date": "2019-01-27",
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "bootstrap",
+        "javascript",
+        "jquery",
+        "php",
+        "laravel",
+        "mysql"
+      ],
       "descriptionBrief": "Portal acadêmico de alunos da Cultura Inglesa.",
       "description": "Portal de serviços (acadêmicos, financeiros e sociais) para alunos da Cultura Inglesa. Possui integração com o sistema administrativo da empresa, login Google e chat Hi Platform."
     },
     {
       "title": "Thiniá Consultas",
       "slug": "thinia-consultas",
+      "date": "2019-01-22",
+      "client": {
+        "name": "Thiniá - Espaço de Cuidar",
+        "link": "https://www.facebook.com/thiniaespacodecuidar/"
+      },
       "images": [
         {
           "path": "projects/thinia-consultas/0.png",
           "alt": "Thiniá Consultas printscreen"
         }
       ],
-      "date": "2019-01-22",
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "materialDesign",
+        "javascript",
+        "jquery",
+        "php",
+        "laravel",
+        "mysql"
+      ],
       "descriptionBrief": "Sistema de gerencimento de horários de consultas.",
       "description": "Sistema de gerencimento de horários de consultas."
     }

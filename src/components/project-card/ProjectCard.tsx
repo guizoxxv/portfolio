@@ -1,26 +1,24 @@
 import React from 'react';
 import styles from './ProjectCard.module.scss';
 import ProjectDataInterface from './interfaces/projectData.interface';
-import moment from 'moment';
+import { Link } from 'react-router-dom';
+import { getImageSrc, getProjectDate } from '../../utils/helpers';
 
 interface ProjectData {
   project: ProjectDataInterface,
-}
-
-const getImageSrc = (path: string) => {
-  return require('../../assets/images/' + path); 
-}
-
-const getProjectDate = (date: string) => {
-  return moment(date).format('MMM, YYYY');
 }
 
 const ProjectCard: React.FC<ProjectData> = (props) => {
   const { project } = props;
 
   return (
-    <div className={styles.card}>
-      <img className={styles.img} src={getImageSrc(project.images[0].path)} alt="trabalho.imagem.alt" />
+    <Link to={{
+      pathname: `/projects/${project.slug}`,
+      state: {
+        project
+      }
+    }} className={styles.card}>
+      <img className={styles.img} src={getImageSrc(project.images[0].path)} alt={project.images[0].alt} />
       <div className={styles.cardHover}>
         <div className={styles.cardHoverContent}>
           <h3>{project.title}</h3>
@@ -28,7 +26,7 @@ const ProjectCard: React.FC<ProjectData> = (props) => {
           <p>{project.descriptionBrief}</p>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

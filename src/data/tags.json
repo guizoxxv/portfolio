@@ -1,0 +1,19 @@
+{
+  "tags": [
+    {
+      "formattedName": "html",
+      "name": "HTML",
+      "link": "https://en.wikipedia.org/wiki/HTML"
+    },
+    {
+      "formattedName": "css",
+      "name": "CSS",
+      "link": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
+    },
+    {
+      "formattedName": "javascript",
+      "name": "JavaScript",
+      "link": "https://en.wikipedia.org/wiki/JavaScript"
+    }
+  ]
+}

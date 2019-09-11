@@ -4,20 +4,17 @@ import App from './components/app/App';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import './assets/styles/index.css';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import Project from './components/project/Project';
-import MatchProps from './components/project/interfaces/matchProps.interface';
 
-library.add(faEnvelope, faLinkedinIn, faGithub);
+library.add(faLinkedinIn, faGithub, faEnvelope, faArrowLeft);
 
 const router = (
   <BrowserRouter>
     <Switch>
       <Route path="/" exact={true} component={App} />
-      <Route path="/projects/:projectSlug" exact={true} render={({ match }: MatchProps) => (
-        <Project projectSlug={match.params.projectSlug} />
-      )} />
+      <Route path="/projects/:projectSlug" exact={true} component={Project} />
     </Switch>
   </ BrowserRouter>
 )
