@@ -20,6 +20,7 @@
         "materialDesign",
         "javascript",
         "angular",
+        "ngrx",
         "node",
         "express",
         "mongodb"
@@ -57,7 +58,7 @@
         "mysql"
       ],
       "descriptionBrief": "Portal acadêmico de alunos da Cultura Inglesa.",
-      "description": "Portal de serviços (acadêmicos, financeiros e sociais) para alunos da Cultura Inglesa. Possui integração com o sistema administrativo da empresa, login Google e chat Hi Platform."
+      "description": "Portal de serviços (acadêmicos, financeiros e sociais) para alunos da Cultura Inglesa. Integrações: Sistema administrativo da empresa, login Google e chat Hi Platform."
     },
     {
       "title": "Thiniá Consultas",
@@ -86,6 +87,194 @@
       ],
       "descriptionBrief": "Sistema de gerencimento de horários de consultas.",
       "description": "Sistema de gerencimento de horários de consultas."
+    },
+    {
+      "title": "Extranet Edify",
+      "slug": "extranet-edify",
+      "date": "2019-01-01",
+      "client": {
+        "name": "Spot Educação",
+        "link": "https://www.spoteducacao.com.br/"
+      },
+      "images": [
+        {
+          "path": "projects/extranet-edify/0.png",
+          "alt": "Extranet Edify printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "bootstrap",
+        "javascript",
+        "jquery",
+        "php",
+        "laravel",
+        "mysql"
+      ],
+      "descriptionBrief": "Extranet do programa Edify.",
+      "description": "Portal de sustentação à operação do negócio, incluindo serviços administrativos e acadêmicos, relatórios gerenciais, e-commerce e controles financeiros para o programa de educação bilíngue Edify. Integrações: Login Google, login Facebook, ERP TOTVS, sistema para aperfeiçoamento do corpo docente Kanttum."
+    },
+    {
+      "title": "Bora Tocar",
+      "slug": "bora-tocar",
+      "date": "2018-10-06",
+      "client": {
+        "name": "Pessoal"
+      },
+      "images": [
+        {
+          "path": "projects/bora-tocar/0.png",
+          "alt": "Bora Tocar printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "materialDesign",
+        "javascript",
+        "jquery",
+        "php",
+        "laravel",
+        "mysql"
+      ],
+      "descriptionBrief": "Uma plataforma para encontrar músicos.",
+      "description": "Uma plataforma para encontrar músicos."
+    },
+    {
+      "title": "Anuário Plural 2018",
+      "slug": "anuario-plural-2018",
+      "date": "2018-06-12",
+      "client": {
+        "name": "Plural",
+        "link": "https://somosplural.com.br/"
+      },
+      "intermediary": {
+        "name": "Piloti",
+        "link": "http://www.piloti.com.br/"
+      },
+      "images": [
+        {
+          "path": "projects/anuario-plural-2018/0.png",
+          "alt": "Anuário Plural 2018 printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "javascript",
+        "jquery",
+        "php",
+        "wordpress",
+        "mysql"
+      ],
+      "descriptionBrief": "Anuário Plural 2018.",
+      "description": "Anuário Plural 2018."
+    },
+    {
+      "title": "Flashcards",
+      "slug": "flashcards",
+      "date": "2018-03-20",
+      "client": {
+        "name": "Pessoal"
+      },
+      "intermediary": {
+        "name": "Udacity",
+        "link": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011"
+      },
+      "images": [
+        {
+          "path": "projects/flashcards/0.png",
+          "alt": "Flashcards printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "react-native",
+        "mobx"
+      ],
+      "descriptionBrief": "Aplicativo Android para criar e jogar quizes.",
+      "description": "Este projeto pertence ao programa Nanodegree Desenvolvedor React. O propósito deste projeto é desenvolver um aplicativo para dispositivos Android utilizando React Native que permite que usuários criem diferentes categorias de flashcards (baralhos), adicionar cartas contendo uma pergunta e sua resposta a esses baralhos, jogar o quiz e receber uma pontuação."
+    },
+    {
+      "title": "Reaccit",
+      "slug": "reaccit",
+      "date": "2018-01-29",
+      "client": {
+        "name": "Pessoal"
+      },
+      "intermediary": {
+        "name": "Udacity",
+        "link": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011"
+      },
+      "images": [
+        {
+          "path": "projects/reaccit/0.png",
+          "alt": "Reaccit printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "redux"
+      ],
+      "descriptionBrief": "Fórum.",
+      "description": "Este projeto pertence ao programa Nanodegree Desenvolvedor React. O propósito deste projeto é desenvolver um aplicativo web de conteúdo e comentários utilizando React e Redux. Este aplicativo permite que os usuários postem conteúdo em categorias pré-definidas, façam comentários em suas próprias postagens e nas de outros usuários e votem nas postagens e comentários. Os usuários também podem editar e excluir postagens e comentários."
+    },
+    {
+      "title": "MyReads",
+      "slug": "myreads",
+      "date": "2017-12-16",
+      "client": {
+        "name": "Pessoal"
+      },
+      "intermediary": {
+        "name": "Udacity",
+        "link": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011"
+      },
+      "images": [
+        {
+          "path": "projects/myreads/0.png",
+          "alt": "MyReads printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "javascript",
+        "react"
+      ],
+      "descriptionBrief": "Site de estante de livros.",
+      "description": "Este projeto pertence ao Programa Nanodegree React. O propósito deste projeto é desenvolver um aplicativo de estante de livros, que permite selecionar e classificar os livros lidos, sendo lidos ou que deseja ler utilizando React."
+    },
+    {
+      "title": "EZ Password Generator",
+      "slug": "password-generator",
+      "date": "2017-09-11",
+      "client": {
+        "name": "Pessoal"
+      },
+      "images": [
+        {
+          "path": "projects/password-generator/0.png",
+          "alt": "EZ Password Generator printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "javascript"
+      ],
+      "descriptionBrief": "Um site para gerar senhas aleatórias fortes com facilidade.",
+      "description": "Um site para gerar senhas aleatórias fortes com facilidade."
     }
   ]
 }

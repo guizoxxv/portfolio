@@ -11,9 +11,99 @@
       "link": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets"
     },
     {
+      "formattedName": "sass",
+      "name": "SASS",
+      "link": "http://sass-lang.com"
+    },
+    {
       "formattedName": "javascript",
       "name": "JavaScript",
       "link": "https://en.wikipedia.org/wiki/JavaScript"
+    },
+    {
+      "formattedName": "jquery",
+      "name": "jQuery",
+      "link": "https://jquery.com"
+    },
+    {
+      "formattedName": "bootstrap",
+      "name": "Bootstrap",
+      "link": "https://getbootstrap.com"
+    },
+    {
+      "formattedName": "materialDesign",
+      "name": "Material Design",
+      "link": "https://material.io/design/"
+    },
+    {
+      "formattedName": "react",
+      "name": "React",
+      "link": "https://reactjs.org"
+    },
+    {
+      "formattedName": "reactNative",
+      "name": "React Native",
+      "link": "https://facebook.github.io/react-native"
+    },
+    {
+      "formattedName": "redux",
+      "name": "Redux",
+      "link": "https://redux.js.org"
+    },
+    {
+      "formattedName": "mobx",
+      "name": "MobX",
+      "link": "https://mobx.js.org"
+    },
+    {
+      "formattedName": "angular",
+      "name": "Angular",
+      "link": "https://angular.io/"
+    },
+    {
+      "formattedName": "ngrx",
+      "name": "NgRx",
+      "link": "https://ngrx.io/"
+    },
+    {
+      "formattedName": "knockout",
+      "name": "Knockout.js",
+      "link": "http://knockoutjs.com"
+    },
+    {
+      "formattedName": "php",
+      "name": "PHP",
+      "link": "http://php.net"
+    },
+    {
+      "formattedName": "laravel",
+      "name": "Laravel",
+      "link": "https://laravel.com"
+    },
+    {
+      "formattedName": "wordpress",
+      "name": "Wordpress",
+      "link": "https://wordpress.org"
+    },
+    {
+      "formattedName": "nodejs",
+      "name": "NodeJS",
+      "link": "https://nodejs.org"
+    },
+    {
+      "formattedName": "express",
+      "name": "Express",
+      "link": "https://expressjs.com/"
+    },
+    {
+      "formattedName": "mysql",
+      "name": "MySQL",
+      "link": "https://www.mysql.com"
+    },
+    {
+      "formattedName": "mongodb",
+      "name": "MongoDB",
+      "link": "https://www.mongodb.com/"
     }
   ]
 }

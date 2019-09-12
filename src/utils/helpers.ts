@@ -7,3 +7,7 @@ export const getImageSrc = (path: string) => {
 export const getProjectDate = (date: string) => {
     return moment(date).format('MMM, YYYY');
 }
+
+export const getFullProjectDate = (date: string) => {
+    return moment(date).format('DD [de] MMMM [de] YYYY');
+}

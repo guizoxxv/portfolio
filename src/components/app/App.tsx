@@ -6,7 +6,7 @@ import ProjectsWrapper from '../projects-wrapper/ProjectsWrapper';
 
 const App = () => {
   return (
-    <div>
+    <div className="appWrapper">
       <Header />
       <SocialLinksWrapper />
       <ProjectsWrapper />
