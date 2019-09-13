@@ -92,7 +92,7 @@ class Project extends React.Component<ProjectInterface, any> {
         </div>
         <div className="p-3 text-center">
           {siteLink && (
-            <a href={siteLink} className="m-2 hover:text-customGreen" target="_blank" title="Site">
+            <a href={siteLink} className="m-2 hover:text-customGreen" target="_blank" rel="noopener noreferrer" title="Site">
               <FontAwesomeIcon icon={findIconDefinition({
                 "prefix": "fas",
                 "iconName": "globe"
@@ -100,7 +100,7 @@ class Project extends React.Component<ProjectInterface, any> {
             </a>
           )}
           {githubLink && (
-            <a href={githubLink} className="m-2 hover:text-customGreen" target="_blank" title="GitHub">
+            <a href={githubLink} className="m-2 hover:text-customGreen" target="_blank" rel="noopener noreferrer" title="GitHub">
               <FontAwesomeIcon icon={findIconDefinition({
                 "prefix": "fab",
                 "iconName": "github"
