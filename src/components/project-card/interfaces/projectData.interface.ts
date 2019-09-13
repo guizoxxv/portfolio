@@ -17,4 +17,8 @@ export default interface ProjectDataInterface {
   tags: string[],
   descriptionBrief: string,
   description: string,
+  links?: {
+    site?: string;
+    github?: string;
+  }
 }

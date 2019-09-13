@@ -26,7 +26,11 @@
         "mongodb"
       ],
       "descriptionBrief": "Aplicação para gerenciar lista de convidados de eventos.",
-      "description": "Aplicação para gerenciar lista de convidados de eventos."
+      "description": "Aplicação para gerenciar lista de convidados de eventos.",
+      "links": {
+        "site": "http://guest-list.guizoxxv.com.br/",
+        "github": "https://github.com/guizoxxv/guest-list"
+      }
     },
     {
       "title": "My Cultura",
@@ -58,7 +62,10 @@
         "mysql"
       ],
       "descriptionBrief": "Portal acadêmico de alunos da Cultura Inglesa.",
-      "description": "Portal de serviços (acadêmicos, financeiros e sociais) para alunos da Cultura Inglesa. Integrações: Sistema administrativo da empresa, login Google e chat Hi Platform."
+      "description": "Portal de serviços (acadêmicos, financeiros e sociais) para alunos da Cultura Inglesa. Integrações: Sistema administrativo da empresa, login Google e chat Hi Platform.",
+      "links": {
+        "site": "https://mycultura.culturainglesa.net/"
+      }
     },
     {
       "title": "Thiniá Consultas",
@@ -114,7 +121,10 @@
         "mysql"
       ],
       "descriptionBrief": "Extranet do programa Edify.",
-      "description": "Portal de sustentação à operação do negócio, incluindo serviços administrativos e acadêmicos, relatórios gerenciais, e-commerce e controles financeiros para o programa de educação bilíngue Edify. Integrações: Login Google, login Facebook, ERP TOTVS, sistema para aperfeiçoamento do corpo docente Kanttum."
+      "description": "Portal de sustentação à operação do negócio, incluindo serviços administrativos e acadêmicos, relatórios gerenciais, e-commerce e controles financeiros para o programa de educação bilíngue Edify. Integrações: Login Google, login Facebook, ERP TOTVS, sistema para aperfeiçoamento do corpo docente Kanttum.",
+      "links": {
+        "site": "http://portal.edifyeducation.com.br/"
+      }
     },
     {
       "title": "Bora Tocar",
@@ -141,7 +151,10 @@
         "mysql"
       ],
       "descriptionBrief": "Uma plataforma para encontrar músicos.",
-      "description": "Uma plataforma para encontrar músicos."
+      "description": "Uma plataforma para encontrar músicos.",
+      "links": {
+        "site": "https://boratocar.guizoxxv.com.br/"
+      }
     },
     {
       "title": "Anuário Plural 2018",
@@ -171,7 +184,10 @@
         "mysql"
       ],
       "descriptionBrief": "Anuário Plural 2018.",
-      "description": "Anuário Plural 2018."
+      "description": "Anuário Plural 2018.",
+      "links": {
+        "site": "https://anuario2018.somosplural.com.br/"
+      }
     },
     {
       "title": "Flashcards",
@@ -199,7 +215,10 @@
         "mobx"
       ],
       "descriptionBrief": "Aplicativo Android para criar e jogar quizes.",
-      "description": "Este projeto pertence ao programa Nanodegree Desenvolvedor React. O propósito deste projeto é desenvolver um aplicativo para dispositivos Android utilizando React Native que permite que usuários criem diferentes categorias de flashcards (baralhos), adicionar cartas contendo uma pergunta e sua resposta a esses baralhos, jogar o quiz e receber uma pontuação."
+      "description": "Este projeto pertence ao programa Nanodegree Desenvolvedor React. O propósito deste projeto é desenvolver um aplicativo para dispositivos Android utilizando React Native que permite que usuários criem diferentes categorias de flashcards (baralhos), adicionar cartas contendo uma pergunta e sua resposta a esses baralhos, jogar o quiz e receber uma pontuação.",
+      "links": {
+        "github": "https://github.com/guizoxxv/udacity-flashcards"
+      }
     },
     {
       "title": "Reaccit",
@@ -226,7 +245,11 @@
         "redux"
       ],
       "descriptionBrief": "Fórum.",
-      "description": "Este projeto pertence ao programa Nanodegree Desenvolvedor React. O propósito deste projeto é desenvolver um aplicativo web de conteúdo e comentários utilizando React e Redux. Este aplicativo permite que os usuários postem conteúdo em categorias pré-definidas, façam comentários em suas próprias postagens e nas de outros usuários e votem nas postagens e comentários. Os usuários também podem editar e excluir postagens e comentários."
+      "description": "Este projeto pertence ao programa Nanodegree Desenvolvedor React. O propósito deste projeto é desenvolver um aplicativo web de conteúdo e comentários utilizando React e Redux. Este aplicativo permite que os usuários postem conteúdo em categorias pré-definidas, façam comentários em suas próprias postagens e nas de outros usuários e votem nas postagens e comentários. Os usuários também podem editar e excluir postagens e comentários.",
+      "links": {
+        "site": "https://reaccit.guizoxxv.com.br/",
+        "github": "https://github.com/guizoxxv/udacity-leitura"
+      }
     },
     {
       "title": "MyReads",
@@ -252,7 +275,11 @@
         "react"
       ],
       "descriptionBrief": "Site de estante de livros.",
-      "description": "Este projeto pertence ao Programa Nanodegree React. O propósito deste projeto é desenvolver um aplicativo de estante de livros, que permite selecionar e classificar os livros lidos, sendo lidos ou que deseja ler utilizando React."
+      "description": "Este projeto pertence ao Programa Nanodegree React. O propósito deste projeto é desenvolver um aplicativo de estante de livros, que permite selecionar e classificar os livros lidos, sendo lidos ou que deseja ler utilizando React.",
+      "links": {
+        "site": "https://myreads.guizoxxv.com.br/",
+        "github": "https://github.com/guizoxxv/udacity-myreads"
+      }
     },
     {
       "title": "EZ Password Generator",
@@ -274,7 +301,148 @@
         "javascript"
       ],
       "descriptionBrief": "Um site para gerar senhas aleatórias fortes com facilidade.",
-      "description": "Um site para gerar senhas aleatórias fortes com facilidade."
+      "description": "Um site para gerar senhas aleatórias fortes com facilidade.",
+      "links": {
+        "site": "https://ezpasswordgenerator.guizoxxv.com.br/",
+        "github": "https://github.com/guizoxxv/ezpasswordgenerator"
+      }
+    },
+    {
+      "title": "OpenPad",
+      "slug": "openpad",
+      "date": "2017-04-03",
+      "client": {
+        "name": "Pessoal"
+      },
+      "images": [
+        {
+          "path": "projects/openpad/0.png",
+          "alt": "OpenPad printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "javascript",
+        "jQuery",
+        "php",
+        "laravel",
+        "mysql"
+      ],
+      "descriptionBrief": "Um site para editar e compartilhar textos sem logar.",
+      "description": "Um site para editar e compartilhar textos sem logar.",
+      "links": {
+        "site": "https://openpad.guizoxxv.com.br/",
+        "github": "https://github.com/guizoxxv/openpad-laravel"
+      }
+    },
+    {
+      "title": "Guizo's Frogger Game",
+      "slug": "guizos-frogger-game",
+      "date": "2017-02-02",
+      "client": {
+        "name": "Pessoal"
+      },
+      "images": [
+        {
+          "path": "projects/guizos-frogger-game/0.png",
+          "alt": "Guizo's Frogger Game printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "descriptionBrief": "Jogo baseado no arcade Frogger.",
+      "description": "Um site que apresenta um jogo baseado no clássico arcade Frogger. Este é um projeto do programa Front-End Web Developer Nanodegree da Udacity.",
+      "links": {
+        "site": "https://frogger.guizoxxv.com.br/",
+        "github": "https://github.com/guizoxxv/udacity-classic-arcade-game-clone"
+      }
+    },
+    {
+      "title": "Downtown Rio Museums",
+      "slug": "downtown-rio-museums",
+      "date": "2017-01-29",
+      "client": {
+        "name": "Pessoal"
+      },
+      "images": [
+        {
+          "path": "projects/downtown-rio-museums/0.png",
+          "alt": "Downtown Rio Museums printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "javascript",
+        "jquery",
+        "knockout"
+      ],
+      "descriptionBrief": "Um site contendo um mapa interativo com localização e informações sobre museus no centro do Rio de Janeiro.",
+      "description": "Um site contendo um mapa interativo com localização e informações sobre museus no centro do Rio de Janeiro. Este é um projeto do programa Front-End Web Developer Nanodegree da Udacity. A aplicação utiliza a API do Google Maps para gerar o mapa, API da Foursquare para fornecer informações sobre os locais e o framework Knockout para o desenvolvimento em padrão MVVM e para lidar com informações na página que estão sujeitas a sofrerem alterações.",
+      "links": {
+        "site": "https://downtown-rio-museums.guizoxxv.com.br/",
+        "github": "https://github.com/guizoxxv/udacity-neighborhood-map"
+      }
+    },
+    {
+      "title": "QuizIt",
+      "slug": "quizit",
+      "date": "2016-12-19",
+      "client": {
+        "name": "Pessoal"
+      },
+      "images": [
+        {
+          "path": "projects/quizit/0.png",
+          "alt": "QuizIt printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "javascript",
+        "jquery",
+        "php",
+        "mysql"
+      ],
+      "descriptionBrief": "Um site para fazer, jogar e compartilhar questionários multipla escolha.",
+      "description": "Um site para fazer, jogar e compartilhar questionários multipla escolha.",
+      "links": {
+        "site": "https://quizit.guizoxxv.com.br/",
+        "github": "https://github.com/guizoxxv/quizit"
+      }
+    },
+    {
+      "title": "EZ Base Converter",
+      "slug": "ez-base-converter",
+      "date": "2016-10-28",
+      "client": {
+        "name": "Pessoal"
+      },
+      "images": [
+        {
+          "path": "projects/ez-base-converter/0.png",
+          "alt": "EZ Base Converter printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "javascript",
+        "jquery"
+      ],
+      "descriptionBrief": "Um site para converter números de uma base numérica para outra.",
+      "description": "Um site para converter números de uma base numérica para outra.",
+      "links": {
+        "site": "https://ezbaseconverter.guizoxxv.com.br/",
+        "github": "https://github.com/guizoxxv/ezbaseconverter"
+      }
     }
   ]
 }

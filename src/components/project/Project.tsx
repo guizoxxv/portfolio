@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TagsWrapper from '../tags-wrapper/TagsWrapper';
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css'
+import * as R from 'ramda';
+import { findIconDefinition, IconLookup } from '@fortawesome/fontawesome-svg-core';
 
 interface ProjectInterface {
   location: {
@@ -32,6 +34,8 @@ class Project extends React.Component<ProjectInterface, any> {
     const imagesPath = project.images.map(image => {
       return image.path;
     });
+    const siteLink = R.pathOr(null, ['links', 'site'], project);
+    const githubLink = R.pathOr(null, ['links', 'github'], project);
 
     return (
       <div className={`${styles.project} font-montserrat p-10`}>
@@ -80,11 +84,29 @@ class Project extends React.Component<ProjectInterface, any> {
           </div>
         </div>
         <TagsWrapper tags={project.tags as string[]} />
-        <div className="mb-3">
+        <div className="mb-5">
           <span className="font-bold">Descrição: </span>
           <div>
             {project.description || project.descriptionBrief}
           </div>
+        </div>
+        <div className="p-3 text-center">
+          {siteLink && (
+            <a href={siteLink} className="m-2 hover:text-customGreen" target="_blank" title="Site">
+              <FontAwesomeIcon icon={findIconDefinition({
+                "prefix": "fas",
+                "iconName": "globe"
+              } as IconLookup)} size="2x" />
+            </a>
+          )}
+          {githubLink && (
+            <a href={githubLink} className="m-2 hover:text-customGreen" target="_blank" title="GitHub">
+              <FontAwesomeIcon icon={findIconDefinition({
+                "prefix": "fab",
+                "iconName": "github"
+              } as IconLookup)} size="2x" />
+            </a>
+          )}
         </div>
         {isOpen && (
           <Lightbox
