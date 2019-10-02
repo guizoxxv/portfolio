@@ -1,6 +1,36 @@
 {
   "projects": [
     {
+      "title": "PCB Form",
+      "slug": "pcb-form",
+      "date": "2019-09-27",
+      "client": {
+        "name": "Confidencial"
+      },
+      "intermediary": {
+        "name": "Workana",
+        "link": "https://www.workana.com/"
+      },
+      "images": [
+        {
+          "path": "projects/pcb-form/0.png",
+          "alt": "PCB Form printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "javascript",
+        "jquery"
+      ],
+      "descriptionBrief": "Formulário para fazer pedidos de PCB.",
+      "description": "Formulário para fazer pedidos de PCB (Printed Circuit Board). As opções disponíves do formulário são alteradas dinamicamente. Cliente disponibilizou o layout e exigiu a utilização de jQuery.",
+      "links": {
+        "site": "http://pcb-form.guizoxxv.com.br/"
+      }
+    },
+    {
       "title": "Guest List",
       "slug": "guest-list",
       "date": "2019-03-25",
