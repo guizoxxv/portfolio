@@ -220,6 +220,36 @@
       }
     },
     {
+      "title": "Gilda Midani Store Locator",
+      "slug": "gilda-midani-store-locator",
+      "date": "2018-03-29",
+      "client": {
+        "name": "Gilda Midani",
+        "link": "http://gildamidani.com/"
+      },
+      "intermediary": {
+        "name": "Arte Digital",
+        "link": "https://artedigitalinternet.com.br/"
+      },
+      "images": [
+        {
+          "path": "projects/gilda-midani-store-locator/0.png",
+          "alt": "Gilda Midani store locator printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "javascript",
+        "vue"
+      ],
+      "descriptionBrief": "Localizador de lojas com peças da estilista Gilda Midani.",
+      "description": "Localizador de lojas com peças da estilista Gilda Midani ao redor do mundo. Integração com Google Maps API.",
+      "links": {
+        "site": "http://gildamidani.com/site/store-locator.php"
+      }
+    },
+    {
       "title": "Flashcards",
       "slug": "flashcards",
       "date": "2018-03-20",

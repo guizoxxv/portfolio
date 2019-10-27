@@ -104,6 +104,11 @@
       "formattedName": "mongodb",
       "name": "MongoDB",
       "link": "https://www.mongodb.com/"
+    },
+    {
+      "formattedName": "vue",
+      "name": "Vue.js",
+      "link": "https://vuejs.org/"
     }
   ]
 }
