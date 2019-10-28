@@ -109,6 +109,11 @@
       "formattedName": "vue",
       "name": "Vue.js",
       "link": "https://vuejs.org/"
+    },
+    {
+      "formattedName": "slim",
+      "name": "Slim",
+      "link": "http://www.slimframework.com/"
     }
   ]
 }

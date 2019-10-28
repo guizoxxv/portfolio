@@ -281,6 +281,40 @@
       }
     },
     {
+      "title": "Affix Comunicados",
+      "slug": "affix-comunicados",
+      "date": "2018-02-19",
+      "client": {
+        "name": "Affix",
+        "link": "https://www.affix.com.br/"
+      },
+      "intermediary": {
+        "name": "Arte Digital",
+        "link": "https://artedigitalinternet.com.br/"
+      },
+      "images": [
+        {
+          "path": "projects/affix-comunicados/0.png",
+          "alt": "Affix comunicados printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "javascript",
+        "boostrap",
+        "jquery",
+        "php",
+        "slim",
+        "mysql"
+      ],
+      "descriptionBrief": "API e interface gráfica para cadastro de comunicados no site da Affix.",
+      "description": "API e interface gráfica para cadastro de comunicados no site da Affix. O usuário se autentifica na parte gráfica da aplicação onde cadastra, edita, lista e remove (CRUD) os comunicados que serão exibidos no site http://affixbeneficios.com.br/ de acordo com regras específicas como tipo de comunicado, a área específica a ser exibida, o grupo alvo e período de exibição. O site principal consulta estes comunicados através de um endpoint de API (JSON) e os exibe de acordo com as regras definidas. A aplicação também faz integração com um serviço SOAP do cliente para popular opções possíveis no formulário de cadastro.",
+      "links": {
+        "site": "http://affixbeneficios.com.br/"
+      }
+    },
+    {
       "title": "Reaccit",
       "slug": "reaccit",
       "date": "2018-01-29",
