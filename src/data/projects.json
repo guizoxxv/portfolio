@@ -24,8 +24,8 @@
         "laravel",
         "mysql"
       ],
-      "descriptionBrief": "API e interface gráfica para cadastro de funcionários de uma empresa.",
-      "description": "API e interface gráfica para cadastro de funcionários de uma empresa."
+      "descriptionBrief": "API e interface gráfica para cadastro de funcionários de um grupo de profissionais.",
+      "description": "API e interface gráfica para cadastro de funcionários de um grupo de profissionais. O usuário se autentifica na parte gráfica da aplicação onde cadastra, edita, lista e remove (CRUD) os funcionários de uma empresa, além de pode importar através de uma planilha. A lista e informações de um usuário em particular são expostos em na API (JSON) e consultados por outro sistema da empresa."
     },
     {
       "title": "PCB Form",
