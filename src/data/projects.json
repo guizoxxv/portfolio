@@ -31,6 +31,39 @@
       }
     },
     {
+      "title": "Anuário Plural 2019",
+      "slug": "anuario-plural-2019",
+      "date": "2019-05-02",
+      "client": {
+        "name": "Plural",
+        "link": "https://somosplural.com.br/"
+      },
+      "intermediary": {
+        "name": "Piloti",
+        "link": "http://www.piloti.com.br/"
+      },
+      "images": [
+        {
+          "path": "projects/anuario-plural-2019/0.png",
+          "alt": "Anuário Plural 2019 printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "javascript",
+        "jquery",
+        "php",
+        "wordpress",
+        "mysql"
+      ],
+      "descriptionBrief": "Anuário Plural 2019.",
+      "description": "Anuário Plural 2019.",
+      "links": {
+        "site": "https://anuario2019.somosplural.com.br/"
+      }
+    },
+    {
       "title": "Guest List",
       "slug": "guest-list",
       "date": "2019-03-25",
