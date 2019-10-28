@@ -1,6 +1,33 @@
 {
   "projects": [
     {
+      "title": "Employees",
+      "slug": "employees",
+      "date": "2019-10-20",
+      "client": {
+        "name": "Confidencial"
+      },
+      "images": [
+        {
+          "path": "projects/employees/0.png",
+          "alt": "Employees printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "javascript",
+        "jquery",
+        "bootstrap",
+        "php",
+        "laravel",
+        "mysql"
+      ],
+      "descriptionBrief": "API e interface gráfica para cadastro de funcionários de uma empresa.",
+      "description": "API e interface gráfica para cadastro de funcionários de uma empresa."
+    },
+    {
       "title": "PCB Form",
       "slug": "pcb-form",
       "date": "2019-09-27",
