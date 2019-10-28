@@ -159,6 +159,33 @@
       "description": "Sistema de gerencimento de horários de consultas."
     },
     {
+      "title": "Portal Acadêmico",
+      "slug": "portal-academico",
+      "date": "2019-01-05",
+      "client": {
+        "name": "Confidencial"
+      },
+      "images": [
+        {
+          "path": "projects/portal-academico/0.png",
+          "alt": "Portal Acadêmico printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "bootstrap",
+        "javascript",
+        "jquery",
+        "php",
+        "laravel",
+        "mysql"
+      ],
+      "descriptionBrief": "Sistema administrativo e portal acadêmico.",
+      "description": "Sistema administrativo e portal acadêmico. Uma escola pode gerenciar os alunos, professores, turmas, disciplinas, cursos e exames além de histórico de turmas e notas. Professores gerenciam seus alunos e turmas além de realizar o lançamento de notas. Alunos acompanham sua matrícula e desempenho."
+    },
+    {
       "title": "Extranet Edify",
       "slug": "extranet-edify",
       "date": "2019-01-01",
