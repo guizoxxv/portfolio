@@ -1,33 +1,6 @@
 {
   "projects": [
     {
-      "title": "Employees",
-      "slug": "employees",
-      "date": "2019-10-20",
-      "client": {
-        "name": "Confidencial"
-      },
-      "images": [
-        {
-          "path": "projects/employees/0.png",
-          "alt": "Employees printscreen"
-        }
-      ],
-      "tags": [
-        "html",
-        "css",
-        "sass",
-        "javascript",
-        "jquery",
-        "bootstrap",
-        "php",
-        "laravel",
-        "mysql"
-      ],
-      "descriptionBrief": "API e interface gráfica para cadastro de funcionários de um grupo de profissionais.",
-      "description": "API e interface gráfica para cadastro de funcionários de um grupo de profissionais. O usuário se autentifica na parte gráfica da aplicação onde cadastra, edita, lista e remove (CRUD) os funcionários de uma empresa, além de pode importar através de uma planilha. A lista e informações de um usuário em particular são expostos em na API (JSON) e consultados por outro sistema da empresa."
-    },
-    {
       "title": "PCB Form",
       "slug": "pcb-form",
       "date": "2019-09-27",
