@@ -13,7 +13,7 @@ const SocialLink: React.FC<SocialLinkProps> = (props) => {
 
   return (
     <a href={link.uri} target="_blank" rel="noopener noreferrer" className="mx-3">
-      <FontAwesomeIcon className={`${styles.icon} p-3`} size="4x" icon={findIconDefinition(link.icon)} />
+      <FontAwesomeIcon className={`${styles.icon} p-3`} size="4x" icon={findIconDefinition(link.icon)} title={link.name} />
     </a>
   );
 }

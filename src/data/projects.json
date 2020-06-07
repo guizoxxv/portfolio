@@ -1,6 +1,38 @@
 {
   "projects": [
     {
+      "title": "Cultura Question Bank",
+      "slug": "cultura-question-bank",
+      "date": "2020-02-06",
+      "client": {
+        "name": "Cultura Inglesa",
+        "link": "https://www.culturainglesa.net/"
+      },
+      "intermediary": {
+        "name": "Piloti",
+        "link": "http://www.piloti.com.br/"
+      },
+      "images": [
+        {
+          "path": "projects/cultura-question-bank/0.png",
+          "alt": "Cultura Question Bank printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "bootstrap",
+        "javascript",
+        "Vue",
+        "php",
+        "laravel",
+        "mysql"
+      ],
+      "descriptionBrief": "Aplicação para criação de provas e questões da Cultura Inglesa",
+      "description": "Aplicação para criação de provas e questões da Cultura Inglesa e indexação. Inclui integração com outros serviços acadêmicos da empresa"
+    },
+    {
       "title": "PCB Form",
       "slug": "pcb-form",
       "date": "2019-09-27",
@@ -406,36 +438,6 @@
       }
     },
     {
-      "title": "MyReads",
-      "slug": "myreads",
-      "date": "2017-12-16",
-      "client": {
-        "name": "Pessoal"
-      },
-      "intermediary": {
-        "name": "Udacity",
-        "link": "https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011"
-      },
-      "images": [
-        {
-          "path": "projects/myreads/0.png",
-          "alt": "MyReads printscreen"
-        }
-      ],
-      "tags": [
-        "html",
-        "css",
-        "javascript",
-        "react"
-      ],
-      "descriptionBrief": "Site de estante de livros.",
-      "description": "Este projeto pertence ao Programa Nanodegree React. O propósito deste projeto é desenvolver um aplicativo de estante de livros, que permite selecionar e classificar os livros lidos, sendo lidos ou que deseja ler utilizando React.",
-      "links": {
-        "site": "https://myreads.guizoxxv.com.br/",
-        "github": "https://github.com/guizoxxv/udacity-myreads"
-      }
-    },
-    {
       "title": "EZ Password Generator",
       "slug": "password-generator",
       "date": "2017-09-11",
@@ -489,31 +491,6 @@
       "links": {
         "site": "https://openpad.guizoxxv.com.br/",
         "github": "https://github.com/guizoxxv/openpad-laravel"
-      }
-    },
-    {
-      "title": "Guizo's Frogger Game",
-      "slug": "guizos-frogger-game",
-      "date": "2017-02-02",
-      "client": {
-        "name": "Pessoal"
-      },
-      "images": [
-        {
-          "path": "projects/guizos-frogger-game/0.png",
-          "alt": "Guizo's Frogger Game printscreen"
-        }
-      ],
-      "tags": [
-        "html",
-        "css",
-        "javascript"
-      ],
-      "descriptionBrief": "Jogo baseado no arcade Frogger.",
-      "description": "Um site que apresenta um jogo baseado no clássico arcade Frogger. Este é um projeto do programa Front-End Web Developer Nanodegree da Udacity.",
-      "links": {
-        "site": "https://frogger.guizoxxv.com.br/",
-        "github": "https://github.com/guizoxxv/udacity-classic-arcade-game-clone"
       }
     },
     {

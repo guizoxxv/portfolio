@@ -71,6 +71,7 @@ class Project extends React.Component<ProjectInterface, any> {
                     )}
                 </div>
               )}
+              <TagsWrapper tags={project.tags as string[]} />
             </div>
           </div>
           <div className="w-full sm:w-1/2 flex items-center justify-center">
@@ -83,8 +84,7 @@ class Project extends React.Component<ProjectInterface, any> {
             />
           </div>
         </div>
-        <TagsWrapper tags={project.tags as string[]} />
-        <div className="mb-5">
+        <div className="my-10">
           <span className="font-bold">Descrição: </span>
           <div>
             {project.description || project.descriptionBrief}

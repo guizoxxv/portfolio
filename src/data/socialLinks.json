@@ -23,6 +23,22 @@
         "prefix": "fab",
         "iconName": "github"
       }
+    },
+    {
+      "name": "Stack Overflow",
+      "uri": "https://stackoverflow.com/users/6453726/guizo",
+      "icon": {
+        "prefix": "fab",
+        "iconName": "stack-overflow"
+      }
+    },
+    {
+      "name": "Medium",
+      "uri": "https://medium.com/@gusiol",
+      "icon": {
+        "prefix": "fab",
+        "iconName": "medium"
+      }
     }
   ]
 }

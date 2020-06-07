@@ -9,7 +9,7 @@ const TagsWrapper: React.FC<TagsWrapperProps> = props => {
   const { tags } = tagsData;
 
   return (
-    <ul className="my-10 text-center">
+    <ul className="my-5">
       {props.tags && props.tags.map((tag, index) => {
         let matchedTag = tags.find(item => {
           return item.formattedName === tag;
