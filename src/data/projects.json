@@ -24,13 +24,13 @@
         "sass",
         "bootstrap",
         "javascript",
-        "Vue",
+        "vue",
         "php",
         "laravel",
         "mysql"
       ],
-      "descriptionBrief": "Aplicação para criação de provas e questões da Cultura Inglesa",
-      "description": "Aplicação para criação de provas e questões da Cultura Inglesa e indexação. Inclui integração com outros serviços acadêmicos da empresa"
+      "descriptionBrief": "Aplicação para criação de provas e questões da Cultura Inglesa.",
+      "description": "Aplicação para criação de provas e questões da Cultura Inglesa e indexação. Inclui integração com outros serviços acadêmicos da empresa."
     },
     {
       "title": "PCB Form",
