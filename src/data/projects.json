@@ -1,6 +1,43 @@
 {
   "projects": [
     {
+      "title": "Team Control",
+      "slug": "team-control",
+      "date": "2020-06-08",
+      "client": {
+        "name": "Team Control",
+        "link": "http://teamcontroll.com.br/"
+      },
+      "intermediary": {
+        "name": "Workana",
+        "link": "https://www.workana.com/"
+      },
+      "images": [
+        {
+          "path": "projects/team-control/0.png",
+          "alt": "Team Control printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "bootstrap",
+        "javascript",
+        "jquery",
+        "vue",
+        "php",
+        "laravel",
+        "mysql",
+        "websockets"
+      ],
+      "descriptionBrief": "Aplicação para controle de obras.",
+      "description": "MVP de um SaaS para controle de obras. Painel admistrativo para o gerenciamento e operação, controle de usuários, geração de relatórios e acompanhamento em tempo real.",
+      "links": {
+        "site": "https://portal-teamcontroll.com.br/"
+      }
+    },
+    {
       "title": "Cultura Question Bank",
       "slug": "cultura-question-bank",
       "date": "2020-02-06",

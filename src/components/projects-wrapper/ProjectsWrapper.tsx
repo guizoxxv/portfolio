@@ -8,7 +8,7 @@ const ProjectsWrapper: React.FC = () => {
   const { projects } = projectsData;
 
   return (
-    <section className={`${styles.projects} m-0 p-10`}>
+    <section className={`${styles.projects} m-0 p-5 md:p-10`}>
       {projects && projects.map((project, index) => {
         return (
           <ProjectCard key={index} project={project as ProjectDataInterface} />

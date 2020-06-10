@@ -114,6 +114,11 @@
       "formattedName": "slim",
       "name": "Slim",
       "link": "http://www.slimframework.com/"
+    },
+    {
+      "formattedName": "websockets",
+      "name": "WebSockets",
+      "link": "https://developer.mozilla.org/pt-BR/docs/WebSockets"
     }
   ]
 }

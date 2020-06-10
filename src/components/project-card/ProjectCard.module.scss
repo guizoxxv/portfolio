@@ -4,6 +4,10 @@ $green: #16A085;
   position: relative;
   border: 5px solid gray;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
 }
 .cardHover {
   position: absolute;
