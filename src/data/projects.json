@@ -32,10 +32,7 @@
         "websockets"
       ],
       "descriptionBrief": "Aplicação para controle de obras.",
-      "description": "MVP de um SaaS para controle de obras. Painel admistrativo para o gerenciamento e operação, controle de usuários, geração de relatórios e acompanhamento em tempo real.",
-      "links": {
-        "site": "https://portal-teamcontroll.com.br/"
-      }
+      "description": "MVP de um SaaS para controle de obras. Painel admistrativo para o gerenciamento e operação, controle de usuários, geração de relatórios e acompanhamento em tempo real."
     },
     {
       "title": "Cultura Question Bank",
@@ -280,10 +277,7 @@
         "mysql"
       ],
       "descriptionBrief": "Extranet do programa Edify.",
-      "description": "Portal de sustentação à operação do negócio, incluindo serviços administrativos e acadêmicos, relatórios gerenciais, e-commerce e controles financeiros para o programa de educação bilíngue Edify. Integrações: Login Google, login Facebook, ERP TOTVS, sistema para aperfeiçoamento do corpo docente Kanttum.",
-      "links": {
-        "site": "http://portal.edifyeducation.com.br/"
-      }
+      "description": "Portal de sustentação à operação do negócio, incluindo serviços administrativos e acadêmicos, relatórios gerenciais, e-commerce e controles financeiros para o programa de educação bilíngue Edify. Integrações: Login Google, login Facebook, ERP TOTVS, sistema para aperfeiçoamento do corpo docente Kanttum."
     },
     {
       "title": "Bora Tocar",
@@ -302,7 +296,7 @@
         "html",
         "css",
         "sass",
-        "materialDesign",
+        "bootstrap",
         "javascript",
         "jquery",
         "php",
