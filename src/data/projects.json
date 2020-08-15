@@ -1,12 +1,12 @@
 {
   "projects": [
     {
-      "title": "Team Control",
-      "slug": "team-control",
+      "title": "Zoom Obras",
+      "slug": "zoom-obras",
       "date": "2020-06-08",
       "client": {
-        "name": "Team Control",
-        "link": "http://teamcontroll.com.br/"
+        "name": "Zoom Obras",
+        "link": "http://zoomobras.com.br/"
       },
       "intermediary": {
         "name": "Workana",
@@ -14,8 +14,8 @@
       },
       "images": [
         {
-          "path": "projects/team-control/0.png",
-          "alt": "Team Control printscreen"
+          "path": "projects/zoom-obras/0.png",
+          "alt": "Zoom Obras printscreen"
         }
       ],
       "tags": [
