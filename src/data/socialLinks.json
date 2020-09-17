@@ -1,14 +1,6 @@
 {
   "links": [
     {
-      "name": "E-mail",
-      "uri": "mailto:oliveira.gsd@gmail.com",
-      "icon": {
-        "prefix": "fas",
-        "iconName": "envelope"
-      }
-    },
-    {
       "name": "LinkedIn",
       "uri": "https://linkedin.com/in/g-oliveira",
       "icon": {
@@ -38,6 +30,14 @@
       "icon": {
         "prefix": "fab",
         "iconName": "medium"
+      }
+    },
+    {
+      "name": "E-mail",
+      "uri": "mailto:oliveira.gsd@gmail.com",
+      "icon": {
+        "prefix": "fas",
+        "iconName": "envelope"
       }
     }
   ]

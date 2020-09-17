@@ -38,43 +38,15 @@ class Project extends React.Component<ProjectInterface, any> {
     const githubLink = R.pathOr(null, ['links', 'github'], project);
 
     return (
-      <div className={`${styles.project} font-montserrat p-10`}>
-        <Link to="/" title="Return to home">
-          <FontAwesomeIcon icon="arrow-left" />
-        </Link>
-        <div className="flex flex-wrap justify-center mt-2">
-          <div className="w-full sm:w-1/2 mb-5">
-            <div>
-              <div className="text-bold text-2xl mb-5">{project.title}</div>
-              <div className="mb-3">
-                <span className="font-bold">Data: </span>{getFullProjectDate(project.date)}
-              </div>
-              <div className="mb-3">
-                <span className="font-bold">Cliente: </span>
-                {project.client.link ? (
-                  <a className="underline hover:text-customGreen" href={project.client.link}>
-                    {project.client.name}
-                  </a>
-                ) : (
-                    <span>{project.client.name}</span>
-                  )}
-              </div>
-              {project.intermediary && (
-                <div className="mb-3">
-                  <span className="font-bold">Intermediário: </span>
-                  {project.intermediary.link ? (
-                    <a className="underline hover:text-customGreen" href={project.intermediary.link}>
-                      {project.intermediary.name}
-                    </a>
-                  ) : (
-                      <span>{project.intermediary.name}</span>
-                    )}
-                </div>
-              )}
-              <TagsWrapper tags={project.tags as string[]} />
-            </div>
-          </div>
-          <div className="w-full sm:w-1/2 flex items-center justify-center">
+      <div className={`${styles.project} font-montserrat p-5`}>
+        <div className="flex items-center justify-center">
+          <Link to="/" title="Return to home" className="mr-4">
+            <FontAwesomeIcon icon="arrow-left" />
+          </Link>
+          <div className="w-full text-bold text-2xl">{project.title}</div>
+        </div>
+        <div className="flex flex-wrap items-center justify-center">
+          <div className="w-full flex align-center justify-center my-3">
             <img
               className="border cursor-pointer"
               src={getImageSrc(project.images[0].path)}
@@ -83,14 +55,40 @@ class Project extends React.Component<ProjectInterface, any> {
               onClick={() => this.setState({ isOpen: true })}
             />
           </div>
+          <div className="w-full">
+            <span className="font-bold">Data: </span>{getFullProjectDate(project.date)}
+          </div>
+          <div className="w-full">
+            <span className="font-bold">Cliente: </span>
+            {project.client.link ? (
+              <a className="underline hover:text-customGreen" href={project.client.link}>
+                {project.client.name}
+              </a>
+            ) : (
+              <span>{project.client.name}</span>
+            )}
+          </div>
+          {project.intermediary && (
+            <div className="w-full">
+              <span className="font-bold">Intermediário: </span>
+              {project.intermediary.link ? (
+                <a className="underline hover:text-customGreen" href={project.intermediary.link}>
+                  {project.intermediary.name}
+                </a>
+              ) : (
+                <span>{project.intermediary.name}</span>
+              )}
+            </div>
+          )}
+          <TagsWrapper tags={project.tags as string[]} links={true} />
         </div>
-        <div className="my-10">
+        <div className="w-full">
           <span className="font-bold">Descrição: </span>
           <div>
             {project.description || project.descriptionBrief}
           </div>
         </div>
-        <div className="p-3 text-center">
+        <div className="w-full text-center mt-10">
           {siteLink && (
             <a href={siteLink} className="m-2 hover:text-customGreen" target="_blank" rel="noopener noreferrer" title="Site">
               <FontAwesomeIcon icon={findIconDefinition({

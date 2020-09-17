@@ -2,7 +2,8 @@ import React from 'react';
 import styles from './ProjectCard.module.scss';
 import ProjectDataInterface from './interfaces/projectData.interface';
 import { Link } from 'react-router-dom';
-import { getImageSrc, getProjectDate } from '../../utils/helpers';
+import { getImageSrc } from '../../utils/helpers';
+import TagsWrapper from '../tags-wrapper/TagsWrapper';
 
 interface ProjectData {
   project: ProjectDataInterface,
@@ -17,13 +18,13 @@ const ProjectCard: React.FC<ProjectData> = (props) => {
       state: {
         project
       }
-    }} className={styles.card}>
+    }} className={`${styles.card} flex flex-wrap content-start font-montserrat`}>
+      <div className="w-full text-center p-1 bg-teal-700">{project.title}</div>
       <img className={styles.img} src={getImageSrc(project.images[0].path)} alt={project.images[0].alt} />
       <div className={styles.cardHover}>
         <div className={styles.cardHoverContent}>
-          <h3>{project.title}</h3>
-          <p className={styles.date}>{getProjectDate(project.date)}</p>
-          <p>{project.descriptionBrief}</p>
+          <p className="lg:text-xl">{project.descriptionBrief}</p>
+          <TagsWrapper tags={project.tags as string[]} />
         </div>
       </div>
     </Link>

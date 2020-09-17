@@ -3,6 +3,7 @@ import tagsData from '../../data/tags.json';
 
 interface TagsWrapperProps {
   tags: string[],
+  links?: boolean,
 }
 
 const TagsWrapper: React.FC<TagsWrapperProps> = props => {
@@ -17,8 +18,8 @@ const TagsWrapper: React.FC<TagsWrapperProps> = props => {
 
         if(matchedTag) {
           return (
-            <li key={index} className="m-2 border border-black border-solid rounded inline-block">
-              <a href={matchedTag.link} className="inline-block p-1 hover:bg-gray-300" target="_blank" rel="noopener noreferrer">
+            <li key={index} className="m-1 border border-white border-solid rounded inline-block">
+              <a href={matchedTag.link} className={`text-sm inline-block p-1 ${props.links ? `hover:bg-teal-700` : ''}`} target="_blank" rel="noopener noreferrer">
                 {matchedTag.name}
               </a>
             </li>

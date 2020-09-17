@@ -1,6 +1,29 @@
 {
   "projects": [
     {
+      "title": "Laravel Multi Size Image",
+      "slug": "laravel-multi-size-image",
+      "date": "2020-08-30",
+      "client": {
+        "name": "Pessoal"
+      },
+      "images": [
+        {
+          "path": "projects/laravel-multi-size-image/0.png",
+          "alt": "Laravel Multi Size Image printscreen"
+        }
+      ],
+      "tags": [
+        "php",
+        "laravel"
+      ],
+      "descriptionBrief": "Pacote Laravel para optimizar e armazenar imagens em tamanhos diferentes.",
+      "description": "Pacote Laravel para optimizar e armazenar imagens em tamanhos diferentes a fim de carregar a apropriada conforme o tamanho da tela.",
+      "links": {
+        "github": "https://github.com/guizoxxv/laravel-multi-size-image"
+      }
+    },
+    {
       "title": "Zoom Obras",
       "slug": "zoom-obras",
       "date": "2020-06-08",
