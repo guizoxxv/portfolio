@@ -2,7 +2,6 @@ import React from 'react';
 import ProjectDataInterface from '../project-card/interfaces/projectData.interface';
 import styles from './Project.module.scss';
 import { getImageSrc, getFullProjectDate } from '../../utils/helpers';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TagsWrapper from '../tags-wrapper/TagsWrapper';
 import Lightbox from 'react-image-lightbox';
@@ -15,7 +14,8 @@ interface ProjectInterface {
     state: {
       project: ProjectDataInterface
     }
-  }
+  },
+  history: any,
 }
 
 class Project extends React.Component<ProjectInterface, any> {
@@ -40,9 +40,14 @@ class Project extends React.Component<ProjectInterface, any> {
     return (
       <div className={`${styles.project} font-montserrat p-5`}>
         <div className="flex items-center justify-center">
-          <Link to="/" title="Return to home" className="mr-4">
+          <button
+            type="button"
+            className="mr-4"
+            onClick={() => this.props.history.goBack()}
+            title="Go back"
+          >
             <FontAwesomeIcon icon="arrow-left" />
-          </Link>
+          </button>
           <div className="w-full text-bold text-2xl">{project.title}</div>
         </div>
         <div className="flex flex-wrap items-center justify-center">

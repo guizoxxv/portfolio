@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import tagsData from '../../data/tags.json';
 
 interface TagsWrapperProps {
@@ -18,10 +19,24 @@ const TagsWrapper: React.FC<TagsWrapperProps> = props => {
 
         if(matchedTag) {
           return (
-            <li key={index} className="m-1 border border-white border-solid rounded inline-block">
-              <a href={matchedTag.link} className={`text-sm inline-block p-1 ${props.links ? `hover:bg-teal-700` : ''}`} target="_blank" rel="noopener noreferrer">
-                {matchedTag.name}
-              </a>
+            <li
+              key={index}
+              className="m-1 border border-white border-solid rounded inline-block"
+            >
+              {props.links ? (
+                <Link
+                  to={matchedTag.link}
+                  className="text-sm inline-block p-1 hover:bg-teal-700 transition duration-300"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {matchedTag.name}
+                </Link>
+              ) : (
+                <div className="text-sm inline-block p-1">
+                  {matchedTag.name}
+                </div>
+              )}
             </li>
           );
         } else {
