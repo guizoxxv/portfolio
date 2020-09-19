@@ -1,0 +1,46 @@
+{
+  "publications": [
+    {
+      "title": "NestJS with MongoDB native driver",
+      "medium": "Medium",
+      "date": "2020-06-13",
+      "image": "https://miro.medium.com/max/700/1*jiqgT2HxAe1c_48yEdcZwQ.png",
+      "link": "https://medium.com/@gusiol/nestjs-with-mongodb-native-driver-9d82e377d55",
+      "tags": [
+        "nestjs",
+        "mongodb",
+        "nodejs",
+        "mongodb_driver",
+        "mongoose"
+      ]
+    },
+    {
+      "title": "Desenvolvimento na AWS (S3 e SQS) sem custos com Localstack",
+      "medium": "Medium",
+      "date": "2020-04-12",
+      "image": "https://miro.medium.com/max/700/1*gF6rM1FFYyNj-KW4KH4Jeg.png",
+      "link": "https://medium.com/@gusiol/desenvolvimento-na-aws-s3-e-sqs-sem-custos-com-localstack-f525d015ca48",
+      "tags": [
+        "localstack",
+        "aws",
+        "aws_s3",
+        "aws_sqs",
+        "docker"
+      ]
+    },
+    {
+      "title": "nginx-proxy e Portainer: Múltiplas aplicações num só domínio",
+      "medium": "Medium",
+      "date": "2020-04-01",
+      "image": "https://miro.medium.com/max/700/1*RFxN39FthylVxSBiHPHHoQ.png",
+      "link": "https://medium.com/@gusiol/hospedando-e-gerenciando-aplica%C3%A7%C3%B5es-num-mesmo-dom%C3%ADnio-com-nginx-proxy-e-portainer-ce13d3dd5e3e",
+      "tags": [
+        "docker",
+        "reverse_proxy",
+        "nginx",
+        "portainer",
+        "ssl"
+      ]
+    }
+  ]
+}

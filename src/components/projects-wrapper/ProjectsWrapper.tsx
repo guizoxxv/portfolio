@@ -9,7 +9,7 @@ const ProjectsWrapper: React.FC = () => {
   const { projects } = projectsData;
 
   return (
-    <section className="m-0 p-5 md:p-10">
+    <section className="p-0 m-5 md:m-10">
       <h3 className="text-3xl text-center mb-5 underline">
         Projetos
       </h3>

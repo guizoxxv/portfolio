@@ -4,10 +4,14 @@ export const getImageSrc = (path: string) => {
     return require('../assets/images/' + path);
 }
 
-export const getProjectDate = (date: string) => {
+export const getDate = (date: string) => {
     return moment(date).format('MMM, YYYY');
 }
 
-export const getFullProjectDate = (date: string) => {
+export const getDateBr = (date: string) => {
+    return moment(date).format('DD/MM/YYYY');
+}
+
+export const getFullDate = (date: string) => {
     return moment(date).format('DD [de] MMMM [de] YYYY');
 }

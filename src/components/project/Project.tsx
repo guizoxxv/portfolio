@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectDataInterface from '../project-card/interfaces/projectData.interface';
 import styles from './Project.module.scss';
-import { getImageSrc, getFullProjectDate } from '../../utils/helpers';
+import { getImageSrc, getFullDate } from '../../utils/helpers';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TagsWrapper from '../tags-wrapper/TagsWrapper';
 import Lightbox from 'react-image-lightbox';
@@ -61,7 +61,7 @@ class Project extends React.Component<ProjectInterface, any> {
             />
           </div>
           <div className="w-full">
-            <span className="font-bold">Data: </span>{getFullProjectDate(project.date)}
+            <span className="font-bold">Data: </span>{getFullDate(project.date)}
           </div>
           <div className="w-full">
             <span className="font-bold">Cliente: </span>

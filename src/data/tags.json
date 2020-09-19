@@ -119,6 +119,66 @@
       "formattedName": "websockets",
       "name": "WebSockets",
       "link": "https://developer.mozilla.org/pt-BR/docs/WebSockets"
+    },
+    {
+      "formattedName": "nestjs",
+      "name": "NestJS",
+      "link": "https://nestjs.com/"
+    },
+    {
+      "formattedName": "mongodb_driver",
+      "name": "MongoDB Driver",
+      "link": "https://mongodb.github.io/node-mongodb-native/"
+    },
+    {
+      "formattedName": "mongooe",
+      "name": "Mongoose",
+      "link": "https://mongoosejs.com/"
+    },
+    {
+      "formattedName": "localstack",
+      "name": "Localstack",
+      "link": "https://localstack.cloud/"
+    },
+    {
+      "formattedName": "aws",
+      "name": "AWS",
+      "link": "https://aws.amazon.com/"
+    },
+    {
+      "formattedName": "aws_s3",
+      "name": "AWS S3",
+      "link": "https://aws.amazon.com/s3/"
+    },
+    {
+      "formattedName": "aws_sqs",
+      "name": "AWS SQS",
+      "link": "https://aws.amazon.com/sqs/"
+    },
+    {
+      "formattedName": "docker",
+      "name": "Docker",
+      "link": "https://www.docker.com/"
+    },
+    {
+      "formattedName": "nginx",
+      "name": "NGINX",
+      "link": "https://www.nginx.com/"
+    },
+    {
+      "formattedName": "reverse_proxy",
+      "name": "Reverse Proxy",
+      "link": "https://en.wikipedia.org/wiki/Reverse_proxy"
+    },
+    {
+      "formattedName": "portainer",
+      "name": "Portainer",
+      "link": "https://www.portainer.io/"
+    },
+    {
+      "formattedName": "tls",
+      "name": "SSL",
+      "link": "https://en.wikipedia.org/wiki/Transport_Layer_Security"
     }
   ]
 }

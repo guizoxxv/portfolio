@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './ProjectCard.module.scss';
+import styles from '../common/card.module.scss';
 import ProjectDataInterface from './interfaces/projectData.interface';
 import { Link } from 'react-router-dom';
-import { getImageSrc } from '../../utils/helpers';
+import { getDate, getImageSrc } from '../../utils/helpers';
 import TagsWrapper from '../tags-wrapper/TagsWrapper';
 
 interface ProjectData {
@@ -31,6 +31,7 @@ const ProjectCard: React.FC<ProjectData> = (props) => {
       <div className={styles.cardHover}>
         <div className={styles.cardHoverContent}>
           <p className="lg:text-xl">{project.descriptionBrief}</p>
+          <p className={styles.date}>{getDate(project.date)}</p>
           <TagsWrapper tags={project.tags as string[]} />
         </div>
       </div>

@@ -1,0 +1,21 @@
+.publicationsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .publicationsGrid {
+    margin: 15px;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .publicationsGrid {
+    margin: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}
