@@ -179,6 +179,21 @@
       "formattedName": "tls",
       "name": "SSL",
       "link": "https://en.wikipedia.org/wiki/Transport_Layer_Security"
+    },
+    {
+      "formattedName": "rsa",
+      "name": "RSA",
+      "link": "https://en.wikipedia.org/wiki/RSA_(cryptosystem)"
+    },
+    {
+      "formattedName": "aes",
+      "name": "AES",
+      "link": "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard"
+    },
+    {
+      "formattedName": "openssl",
+      "name": "OpenSSL",
+      "link": "https://www.openssl.org/"
     }
   ]
 }
