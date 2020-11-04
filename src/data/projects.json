@@ -116,7 +116,7 @@
       "descriptionBrief": "Formulário para fazer pedidos de PCB.",
       "description": "Formulário para fazer pedidos de PCB (Printed Circuit Board). As opções disponíves do formulário são alteradas dinamicamente. Cliente disponibilizou o layout e exigiu a utilização de jQuery.",
       "links": {
-        "site": "http://pcb-form.guizoxxv.com.br/"
+        "site": "http://pcb-form.guizo.dev.br/"
       }
     },
     {
@@ -180,7 +180,7 @@
       "descriptionBrief": "Aplicação para gerenciar lista de convidados de eventos.",
       "description": "Aplicação para gerenciar lista de convidados de eventos.",
       "links": {
-        "site": "http://guest-list.guizoxxv.com.br/",
+        "site": "http://guest-list.guizo.dev.br/",
         "github": "https://github.com/guizoxxv/guest-list"
       }
     },
@@ -326,7 +326,7 @@
       "descriptionBrief": "Uma plataforma para encontrar músicos.",
       "description": "Uma plataforma para encontrar músicos.",
       "links": {
-        "site": "https://boratocar.guizoxxv.com.br/"
+        "site": "https://boratocar.guizo.dev.br/"
       }
     },
     {
@@ -484,7 +484,7 @@
       "descriptionBrief": "Fórum.",
       "description": "Este projeto pertence ao programa Nanodegree Desenvolvedor React. O propósito deste projeto é desenvolver um aplicativo web de conteúdo e comentários utilizando React e Redux. Este aplicativo permite que os usuários postem conteúdo em categorias pré-definidas, façam comentários em suas próprias postagens e nas de outros usuários e votem nas postagens e comentários. Os usuários também podem editar e excluir postagens e comentários.",
       "links": {
-        "site": "https://reaccit.guizoxxv.com.br/",
+        "site": "https://reaccit.guizo.dev.br/",
         "github": "https://github.com/guizoxxv/udacity-leitura"
       }
     },
@@ -510,7 +510,7 @@
       "descriptionBrief": "Um site para gerar senhas aleatórias fortes com facilidade.",
       "description": "Um site para gerar senhas aleatórias fortes com facilidade.",
       "links": {
-        "site": "https://ezpasswordgenerator.guizoxxv.com.br/",
+        "site": "https://guizoxxv.github.io/ezpasswordgenerator/",
         "github": "https://github.com/guizoxxv/ezpasswordgenerator"
       }
     },
@@ -540,7 +540,7 @@
       "descriptionBrief": "Um site para editar e compartilhar textos sem logar.",
       "description": "Um site para editar e compartilhar textos sem logar.",
       "links": {
-        "site": "https://openpad.guizoxxv.com.br/",
+        "site": "https://openpad.guizo.dev.br/",
         "github": "https://github.com/guizoxxv/openpad-laravel"
       }
     },
@@ -567,7 +567,7 @@
       "descriptionBrief": "Um site contendo um mapa interativo com localização e informações sobre museus no centro do Rio de Janeiro.",
       "description": "Um site contendo um mapa interativo com localização e informações sobre museus no centro do Rio de Janeiro. Este é um projeto do programa Front-End Web Developer Nanodegree da Udacity. A aplicação utiliza a API do Google Maps para gerar o mapa, API da Foursquare para fornecer informações sobre os locais e o framework Knockout para o desenvolvimento em padrão MVVM e para lidar com informações na página que estão sujeitas a sofrerem alterações.",
       "links": {
-        "site": "https://downtown-rio-museums.guizoxxv.com.br/",
+        "site": "https://downtown-rio-museums.guizo.dev.br/",
         "github": "https://github.com/guizoxxv/udacity-neighborhood-map"
       }
     },
@@ -596,7 +596,7 @@
       "descriptionBrief": "Um site para fazer, jogar e compartilhar questionários multipla escolha.",
       "description": "Um site para fazer, jogar e compartilhar questionários multipla escolha.",
       "links": {
-        "site": "https://quizit.guizoxxv.com.br/",
+        "site": "https://quizit.guizo.dev.br/",
         "github": "https://github.com/guizoxxv/quizit"
       }
     },
@@ -622,7 +622,7 @@
       "descriptionBrief": "Um site para converter números de uma base numérica para outra.",
       "description": "Um site para converter números de uma base numérica para outra.",
       "links": {
-        "site": "https://ezbaseconverter.guizoxxv.com.br/",
+        "site": "https://guizoxxv.github.io/ezbaseconverter/",
         "github": "https://github.com/guizoxxv/ezbaseconverter"
       }
     }
