@@ -1,11 +1,11 @@
 {
   "publications": [
     {
-      "title": "Compartilhando chaves AES utilizando RSA com OpenSSL",
+      "title": "Sharing AES Key using RSA with OpenSSL",
       "medium": "Medium",
       "date": "2020-09-23",
       "image": "https://miro.medium.com/max/700/1*9QkYeD1ACzJSQD7iJs8rtw.png",
-      "link": "https://medium.com/b2w-engineering/compartilhando-chaves-aes-utilizando-rsa-com-openssl-3beffb1b2010",
+      "link": "https://medium.com/b2w-engineering-en/sharing-aes-key-using-rsa-with-openssl-bc470afd2fb7",
       "tags": [
         "rsa",
         "aes",
