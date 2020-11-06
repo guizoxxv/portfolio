@@ -35,6 +35,7 @@ class Project extends React.Component<ProjectInterface, any> {
       return image.path;
     });
     const siteLink = R.pathOr(null, ['links', 'site'], project);
+    const sitesLinks = R.pathOr([], ['links', 'sites'], project);
     const githubLink = R.pathOr(null, ['links', 'github'], project);
 
     return (
@@ -63,16 +64,18 @@ class Project extends React.Component<ProjectInterface, any> {
           <div className="w-full">
             <span className="font-bold">Data: </span>{getFullDate(project.date)}
           </div>
-          <div className="w-full">
-            <span className="font-bold">Cliente: </span>
-            {project.client.link ? (
-              <a className="underline hover:text-customGreen" href={project.client.link}>
-                {project.client.name}
-              </a>
-            ) : (
-              <span>{project.client.name}</span>
-            )}
-          </div>
+          {project.client && (
+            <div className="w-full">
+              <span className="font-bold">Cliente: </span>
+              {project.client.link ? (
+                <a className="underline hover:text-customGreen" href={project.client.link}>
+                  {project.client.name}
+                </a>
+              ) : (
+                <span>{project.client.name}</span>
+              )}
+            </div>
+          )}
           {project.intermediary && (
             <div className="w-full">
               <span className="font-bold">Intermediário: </span>
@@ -102,6 +105,16 @@ class Project extends React.Component<ProjectInterface, any> {
               } as IconLookup)} size="2x" />
             </a>
           )}
+          {sitesLinks && sitesLinks.map((site, index) => {
+            return (
+              <a key={index} href={site} className="m-2 hover:text-customGreen" target="_blank" rel="noopener noreferrer" title="Site">
+                <FontAwesomeIcon icon={findIconDefinition({
+                  "prefix": "fas",
+                  "iconName": "globe"
+                } as IconLookup)} size="2x" />
+              </a>
+            );
+          })}
           {githubLink && (
             <a href={githubLink} className="m-2 hover:text-customGreen" target="_blank" rel="noopener noreferrer" title="GitHub">
               <FontAwesomeIcon icon={findIconDefinition({

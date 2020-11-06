@@ -24,38 +24,116 @@
       }
     },
     {
-      "title": "Zoom Obras",
-      "slug": "zoom-obras",
-      "date": "2020-06-08",
-      "client": {
-        "name": "Zoom Obras",
-        "link": "http://zoomobras.com.br/"
-      },
+      "title": "Resgate",
+      "slug": "resgate",
+      "date": "2019-10-01",
       "intermediary": {
-        "name": "Workana",
-        "link": "https://www.workana.com/"
+        "name": "B2W",
+        "link": "https://ri.b2w.digital/"
       },
       "images": [
         {
-          "path": "projects/zoom-obras/0.png",
-          "alt": "Zoom Obras printscreen"
+          "path": "projects/resgate/0.png",
+          "alt": "Resgate printscreen"
         }
       ],
       "tags": [
         "html",
         "css",
         "sass",
-        "bootstrap",
-        "javascript",
-        "jquery",
-        "vue",
-        "php",
-        "laravel",
-        "mysql",
-        "websockets"
+        "typescript",
+        "react",
+        "redux",
+        "node",
+        "nestjs",
+        "mongodb",
+        "sqs",
+        "spa",
+        "rest"
       ],
-      "descriptionBrief": "Aplicação para controle de obras.",
-      "description": "MVP de um SaaS para controle de obras. Painel admistrativo para o gerenciamento e operação, controle de usuários, geração de relatórios e acompanhamento em tempo real."
+      "descriptionBrief": "Aplicação para resgate de prêmios em um sistema de pontos de cartão de crédito.",
+      "description": "Aplicação para resgate de prêmios em um sistema de pontos de cartão de crédito. A aplicação inclui um front-end SPA whitelabel feito em Rect com Redux para 4 marcas e uma API REST feita em Node com NestJS.",
+      "links": {
+        "sites": [
+          "https://resgate.americanas.com.br/",
+          "https://resgate.submarino.com.br/",
+          "https://resgate.shoptime.com.br/",
+          "https://resgate.soubarato.com.br/"
+        ]
+      }
+    },
+    {
+      "title": "Card Proposal",
+      "slug": "card-proposal",
+      "date": "2019-05-20",
+      "intermediary": {
+        "name": "B2W",
+        "link": "https://ri.b2w.digital/"
+      },
+      "images": [
+        {
+          "path": "projects/card-proposal/0.png",
+          "alt": "Card Proposal printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "javascript",
+        "react",
+        "redux",
+        "java",
+        "spring",
+        "spring-boot",
+        "mongodb",
+        "spa",
+        "rest"
+      ],
+      "descriptionBrief": "Aplicação para realizar proposta de cartão de crédito e acompanhar o andamento.",
+      "description": "Aplicação para realizar proposta de cartão de crédito e acompanhar o andamento. Inclui disparos de e-mail para o cliente e integração com o banco emissor do cartão. A aplicação inclui um front-end SPA whitelabel feito em Rect com Redux para 4 marcas e uma API REST feita em Java com Spring e Spring Boot.",
+      "links": {
+        "sites": [
+          "https://cartao.americanas.com.br/",
+          "https://cartao.submarino.com.br/",
+          "https://cartao.shoptime.com.br/",
+          "https://cartao.soubarato.com.br/"
+        ]
+      }
+    },
+    {
+      "title": "Consignado",
+      "slug": "consignado",
+      "date": "2019-05-20",
+      "intermediary": {
+        "name": "B2W",
+        "link": "https://ri.b2w.digital/"
+      },
+      "images": [
+        {
+          "path": "projects/consignado/0.png",
+          "alt": "Consignado printscreen"
+        }
+      ],
+      "tags": [
+        "html",
+        "css",
+        "sass",
+        "javascript",
+        "react",
+        "redux",
+        "java",
+        "spring",
+        "spring-boot",
+        "mongodb",
+        "spa",
+        "rest"
+      ],
+      "descriptionBrief": "Aplicação para realizar proposta de empréstimo consignado.",
+      "description": "Aplicação para realizar proposta de empréstimo consignado. A aplicação inclui um front-end SPA feito em Rect com Redux e uma API REST feita em Java com Spring e Spring Boot.",
+      "links": {
+        "site": "https://consignado.americanas.com.br/"
+      }
     },
     {
       "title": "Cultura Question Bank",
