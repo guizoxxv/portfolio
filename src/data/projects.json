@@ -24,6 +24,40 @@
       }
     },
     {
+      "title": "Zoom Obras",
+      "slug": "zoom-obras",
+      "date": "2020-06-08",
+      "client": {
+      "name": "Zoom Obras",
+      "link": "http://zoomobras.com.br/"
+      },
+      "intermediary": {
+      "name": "Workana",
+      "link": "https://www.workana.com/"
+      },
+      "images": [
+      {
+      "path": "projects/zoom-obras/0.png",
+      "alt": "Zoom Obras printscreen"
+      }
+      ],
+      "tags": [
+      "html",
+      "css",
+      "sass",
+      "bootstrap",
+      "javascript",
+      "jquery",
+      "vue",
+      "php",
+      "laravel",
+      "mysql",
+      "websockets"
+      ],
+      "descriptionBrief": "Aplicação para controle de obras.",
+      "description": "MVP de um SaaS para controle de obras. Painel admistrativo para o gerenciamento e operação, controle de usuários, geração de relatórios e acompanhamento em tempo real."
+    },
+    {
       "title": "Resgate",
       "slug": "resgate",
       "date": "2019-10-01",
