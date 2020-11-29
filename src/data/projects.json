@@ -1,6 +1,34 @@
 {
   "projects": [
     {
+      "title": "Pindureta",
+      "slug": "pindureta",
+      "date": "2020-11-27",
+      "client": {
+        "name": "Pessoal"
+      },
+      "images": [
+        {
+          "path": "projects/pindureta/0.png",
+          "alt": "Pindureta printscreen"
+        }
+      ],
+      "tags": [
+        "node",
+        "nestjs",
+        "mongoose",
+        "mongodb",
+        "typescript",
+        "react",
+        "materialui"
+      ],
+      "descriptionBrief": "Small vending spot for trustfull users.",
+      "description": "Small vending spot for trustfull users. Users can choose to pay any amount during the purchase or pay later. Consists of and REST Node API and a React SPA.",
+      "links": {
+        "github": "https://github.com/guizoxxv/pindureta-back"
+      }
+    },
+    {
       "title": "Laravel Multi Size Image",
       "slug": "laravel-multi-size-image",
       "date": "2020-08-30",

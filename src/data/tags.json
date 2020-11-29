@@ -229,6 +229,11 @@
       "formattedName": "sqs",
       "name": "SQS",
       "link": "https://aws.amazon.com/sqs/"
+    },
+    {
+      "formattedName": "materialui",
+      "name": "MaterialUI",
+      "link": "https://material-ui.com/"
     }
   ]
 }
